@@ -1,4 +1,5 @@
 const tailwindConfig = {
+    darkMode: 'selector',
     content: [
       "./index.html",
       "./src/**/*.{js,ts,jsx,tsx}",
@@ -6,7 +7,7 @@ const tailwindConfig = {
     theme: {
       extend: {},
     },
-    darkMode: 'class',
+    
     plugins: [],
   };
   

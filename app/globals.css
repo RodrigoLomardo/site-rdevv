@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 * {
   font-family: Outfit;
 }
@@ -7,6 +8,8 @@
 :root {
   --grid-cols-auto: repeat(auto-fit, minmax(200px, 1fr));
 }
+
+
 
 
 
