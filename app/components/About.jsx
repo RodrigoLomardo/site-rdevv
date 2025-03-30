@@ -48,7 +48,7 @@ const About = ({ isDarkMode }) => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
           className='flex-1'>
-          <p className='mb-10 max-w-2xl '>Desenvolvedor Full-Stack com domínio em tecnologias modernas para construção
+          <p className='mb-10 max-w-2xs ml-14 text-center md:max-w-2xl md:ml-0'>Desenvolvedor Full-Stack com domínio em tecnologias modernas para construção
             de aplicações robustas e escaláveis. No front-end, possui ampla experiência com
             React.js e Next.js, utilizando componentes reutilizáveis, hooks, routes,
             contexto e otimização de performance.</p>
@@ -58,7 +58,7 @@ const About = ({ isDarkMode }) => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
 
-            className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
+            className='grid grid-cols-1 sm:grid-cols-3 gap-6 md:max-w-2xl md:ml-0 max-w-2xs ml-14'>
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
@@ -76,21 +76,21 @@ const About = ({ isDarkMode }) => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.3 }}
 
-            className='my-6 text-gray-700 dark:text-white/80'>
-            Tools I use
+            className='my-6 ml-4 md:ml-0 text-gray-700 dark:text-white/80'>
+            Ferramentas que uso
           </motion.h4>
 
           <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 0.6 }}
-            className='flex items-center gap-3 sm:gap-5'>
+            className='flex items-center gap-3  sm:gap-5'>
             {toolsData.map((tool, index) => (
 
 
               <motion.li
                 whileHover={{ scale: 1.1 }}
-                className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500' key={index}>
+                className='flex items-center justify-center w-10 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500' key={index}>
                 <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
               </motion.li>
             ))}

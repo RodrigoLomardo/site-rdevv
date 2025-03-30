@@ -37,11 +37,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
                 </a>
 
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3  ${isScroll ? "" : "bg-white/50 shadow-sm dark:border dark:border-white/50 dark:bg-transparent"}   `}>
-                    <li><a className={` transition-colors duration-500 ${isDarkMode ? "hover:text-[#c596e9] " : "hover:text-[#2a004a]"}  `} href="#top">Home</a></li>
-                    <li><a className={` transition-colors duration-500 ${isDarkMode ? "hover:text-[#c596e9] " : "hover:text-[#2a004a]"}  `} href="#about">Sobre</a></li>
-                    <li><a className={` transition-colors duration-500 ${isDarkMode ? "hover:text-[#c596e9] " : "hover:text-[#2a004a]"}  `} href="#services">Serviços</a></li>
-                    <li><a className={` transition-colors duration-500 ${isDarkMode ? "hover:text-[#c596e9] " : "hover:text-[#2a004a]"}  `} href="#work">Trabalhos</a></li>
-                    <li><a className={` transition-colors duration-500 ${isDarkMode ? "hover:text-[#c596e9] " : "hover:text-[#2a004a]"}  `} href="#contact">Fale comigo</a></li>
+                    <li><a className={` transition-colors duration-500 ${isDarkMode ? "hover:text-[#4d3361] " : "hover:text-[#2a004a]"}  `} href="#top">Home</a></li>
+                    <li><a className={` transition-colors duration-500 ${isDarkMode ? "hover:text-[#4d3361] " : "hover:text-[#2a004a]"}  `} href="#about">Sobre</a></li>
+                    <li><a className={` transition-colors duration-500 ${isDarkMode ? "hover:text-[#4d3361] " : "hover:text-[#2a004a]"}  `} href="#services">Serviços</a></li>
+                    <li><a className={` transition-colors duration-500 ${isDarkMode ? "hover:text-[#4d3361] " : "hover:text-[#2a004a]"}  `} href="#work">Trabalhos</a></li>
+                    <li><a className={`  transition-colors duration-500 ${isDarkMode ? "hover:text-[#4d3361] " : "hover:text-[#2a004a]"}  `} href="#contact">Fale comigo</a></li>
                 </ul>
 
                 <div className='flex items-center gap-4 '>
