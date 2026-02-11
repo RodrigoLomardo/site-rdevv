@@ -91,8 +91,8 @@ export const workData = [
         bgImage: '/work-1.png',
     },
     {
-        title: 'Delivery App',
-        description: 'Mobile App',
+        title: 'AdaptatSpots',
+        description: 'Landing Page',
         bgImage: '/work-2.png',
     },
     {
@@ -100,17 +100,13 @@ export const workData = [
         description: 'UI/UX design',
         bgImage: '/work-3.png',
     },
-    {
-        title: 'Whatsapp Bot',
-        description: 'Automações',
-        bgImage: '/work-4.png',
-    },
+    
 ]
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web', description: 'Criação de sites e sistemas web robustos e escalaveis com integração em APIs...', link: '#contact' },
     { icon: assets.mobile_icon, title: ' Apps', description: 'Desenvolvimento de Apps para dispositivos moveis com tecnologias atuais... ', link: '#contact' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'Criação de interfaces para sistemas utilizando tecnicas de Ui/UX design.', link: '#contact' },
+    
     { icon: assets.web_icon, title: 'Automações', description: 'Automatização feita em sistemas para aumentar a agilidade no processo...', link: '#contact' },
 ]
 
