@@ -115,9 +115,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: ' React Js, Next Js, TypeScript, JavaScript, Php, Laravel, Python' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: ' ReactJs, NextJs, TypeScript, JavaScript,  Python' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educação', description: 'Tecnólogo em Analise e desenvolvimento de sistemas' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Trabalho', description: 'Equipe de desenvolvedores do @DetroRJ' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Trabalho', description: 'Atualmente atuando como desenvolvedor Full-Stack Independente.' }
 ];
 
 export const toolsData = [

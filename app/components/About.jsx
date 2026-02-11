@@ -48,10 +48,7 @@ const About = ({ isDarkMode }) => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
           className='flex-1'>
-          <p className='mb-10 max-w-2xs ml-14 text-center md:max-w-2xl md:ml-0'>Desenvolvedor Full-Stack com domínio em tecnologias modernas para construção
-            de aplicações robustas e escaláveis. No front-end, possui ampla experiência com
-            React.js e Next.js, utilizando componentes reutilizáveis, hooks, routes,
-            contexto e otimização de performance.</p>
+          <p className='mb-10 max-w-2xs ml-14 text-center md:max-w-2xl md:ml-0'>Engenheiro de Software focado na construção de sistemas utilizando principalmente React, Python e NodeJS. Atuando com foco na integração e utilização de inteligência artificial para construção de sistemas mais robustos. </p>
 
           <motion.ul
             initial={{ opacity: 0 }}
